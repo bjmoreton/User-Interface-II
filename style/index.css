@@ -19,6 +19,11 @@ time, mark, audio, video {
   vertical-align: baseline;  
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 body {
   background: #333;
   font-size: 2rem;
@@ -64,8 +69,8 @@ nav ul li {
 }
 
 @keyframes hovereffect {
-  from { color: white; background-color: #555; }
-  to { color: black; background-color: #AAA; }
+  from { background-color: #555; }
+  to { background-color: #AAA; }
 }
 
 nav ul li:hover {
@@ -106,7 +111,7 @@ footer {
   background: #999;
 }
 
-footer a {
+footer a:first-child {
   color: dodgerblue;
   background: #444;
   padding: 10px 20px;
