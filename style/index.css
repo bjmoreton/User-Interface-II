@@ -63,9 +63,15 @@ nav ul li {
   border-radius: 10px;
 }
 
+@keyframes hovereffect {
+  from { color: white; background-color: #555; }
+  to { color: black; background-color: #AAA; }
+}
+
 nav ul li:hover {
-  background-color: #AAA;
-  color: white;
+  /* background-color: #AAA;
+  color: white; */
+  animation: hovereffect 3s;
 }
 
 .col {
