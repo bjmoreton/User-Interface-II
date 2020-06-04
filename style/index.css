@@ -40,7 +40,7 @@ header {
 }
 
 .projects {
-  display: inline-flex;
+  display: flex;
 }
 
 .projects img {
@@ -140,7 +140,21 @@ footer a:hover {
   margin: 30px;
 }
 
-@media(max-width: 600px){
+@media(max-width: 800px){
+  .projects {
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    text-align:center;
+  }
+}
+
+@media(max-width: 500px){
   .projects {
     flex-direction: column;
   }
