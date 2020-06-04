@@ -126,13 +126,13 @@ footer a:hover {
 .intro {
     border: 0.5rem solid black;
   border-radius: 1rem;
-  margin: auto 30px;
+  margin: auto 5rem;
   background: #444;
 }
 
 .intro h2 {
   font-weight: bold;
-  padding-bottom: 20px;
+  padding-bottom: 0.2rem;
 }
 
 .intro p {
@@ -145,19 +145,12 @@ footer a:hover {
     flex-direction: column;
   }
 
-  nav ul {
-    flex-direction: column;
-  }
-
   nav ul li {
     text-align:center;
   }
 }
 
 @media(max-width: 500px){
-  .projects {
-    flex-direction: column;
-  }
 
   nav ul {
     flex-direction: column;
